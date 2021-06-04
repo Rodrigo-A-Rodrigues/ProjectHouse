@@ -4,6 +4,8 @@ import { Header } from '../components/Header'
 
 import styles from './home.module.scss';
 import ProductsExampler from '../components/Products';
+import Footer from '../components/Footer';
+import Because from '../components/Because';
 
 export default function Home() {
   return (
@@ -32,7 +34,10 @@ export default function Home() {
       </main>
       <section className={styles.contentMain}>
         <ProductsExampler />
+        <Because />
       </section>
+      
+      <Footer />
     </>
   )
 }

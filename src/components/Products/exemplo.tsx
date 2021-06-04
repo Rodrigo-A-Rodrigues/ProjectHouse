@@ -14,7 +14,17 @@ export default function Exemple() {
   }
 
   return(
-    <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
+    <Box 
+      maxW="sm" 
+      borderWidth="1px" 
+      borderRadius="lg" 
+      overflow="hidden" 
+      _hover={{
+        boxShadow:"dark-lg", 
+        rounded:"md", 
+        bg:"white"
+      }}
+    >
       <Image src={property.imageUrl} alt={property.imageAlt} />
 
       <Box p="6">

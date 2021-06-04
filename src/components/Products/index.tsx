@@ -6,7 +6,7 @@ import Exemple from "./exemplo";
 export default function ProductsExampler() {
   return (
     <Box mt="20" align="center">
-      <Headling mb="2rem">Plantas em Destaque</Headling>
+      <Headling align="center" mb="2rem">Plantas em Destaque</Headling>
 
       <SimpleGrid columns={3} gap={5}>
         <Exemple />
