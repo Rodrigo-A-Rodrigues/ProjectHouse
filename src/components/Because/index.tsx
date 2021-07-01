@@ -19,7 +19,7 @@ export default function Because() {
 
           <TabPanels>
             <TabPanel>
-              <Text maxW="400px" textJustify="justify" mb="10">
+              <Text maxW="400px" mb="10">
                 A planta humanizada é como uma tradução da planta baixa para o cliente. O que muda é o layout! O termo planta 
                 humanizada é praticamente usado no Brasil para oferecer clareza na linguagem visual utilizada no projeto arquitetônico 
                 envolvendo o cliente na didática de um modelo de uma planta de fácil entendimento. É um esboço arquitetônico do 
@@ -30,7 +30,7 @@ export default function Because() {
               <Button bg="teal.500" size="lg">Leia Mais+</Button>
             </TabPanel>
             <TabPanel>
-              <Text maxW="400px" textJustify="justify" mb="10">
+              <Text maxW="400px" mb="10">
                 Este software permite criar cenas animadas, fazer uma caminhada virtual dentro dos ambientes, adicionar efeitos visuais 
                 como luminosidade — para estudos de posição do sol —, móveis, plantas, pessoas e outros componentes que já vem na vasta 
                 galeria de recursos do programa.

@@ -1,11 +1,12 @@
 import Head from 'next/head'
-import { Button } from '@chakra-ui/button'
 import { Header } from '../components/Header'
 
 import styles from './home.module.scss';
 import ProductsExampler from '../components/Products';
 import Footer from '../components/Footer';
 import Because from '../components/Because';
+import React from 'react';
+import HeroBanner from '../components/HeroBanner';
 
 export default function Home() {
   return (
@@ -18,19 +19,7 @@ export default function Home() {
       
       <Header />
       <main className={styles.contentContainer}>
-        <section className={styles.hero}>
-          <span>Olá, seja bem-vindo!</span>
-          <h1>
-            🤝Encontre seu <span>Projeto</span> de vida.
-          </h1>
-          <p>
-            Compre o projeto que lhe atende melhor ou <br/>
-            <span>faça um projeto exclusivo.</span>
-          </p>
-          <Button size="lg" bg="teal.600" color="white">Criar Projeto</Button>
-        </section>
-        <img src="./images/PurpleCircle.svg" className={styles.circle} />
-        <img src="/images/banner.jpg" alt="" className={styles.banner}/>
+        <HeroBanner />
       </main>
       <section className={styles.contentMain}>
         <ProductsExampler />
